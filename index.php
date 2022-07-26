@@ -41,7 +41,7 @@
         <?php require("templates/movie_card.php"); ?>
       <?php endforeach; ?>
       <?php if(count($comedyMovies) === 0): ?>
-        <p class="empty-list">Ainda não há filmes de comédias cadastrados!</p>
+        <p class="empty-list">Ainda não há filmes de comédia cadastrados!</p>
       <?php endif; ?>
     </div>
   </div>
