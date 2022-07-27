@@ -64,7 +64,7 @@
             <?php foreach($userMovies as $movie): ?>
               <?php require("templates/movie_card.php"); ?>
             <?php endforeach; ?>
-            <?php if(count($userMovies) === 0): ?>
+            <?php if(count($userMovies) == 0): ?>
               <p class="empty-list">O usuário ainda não enviou filmes.</p>
             <?php endif; ?>
           </div>
