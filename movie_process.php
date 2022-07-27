@@ -104,7 +104,7 @@
 
     }
 
-  } else if($type === "update") { 
+  } else if($type == "update") { 
 
     // Receber os dados dos inputs
     $title = filter_input(INPUT_POST, "title");
