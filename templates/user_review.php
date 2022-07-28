@@ -24,7 +24,7 @@
       <p><i class="fas fa-star"></i> <?= $review->rating ?></p>
     </div>
     <div class="col-md-12">
-      <p class="comment-title">Comentário::</p>
+      <p class="comment-title">Comentário:</p>
       <p><?= $review->review ?></p>
     </div>
   </div>
