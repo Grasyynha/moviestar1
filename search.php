@@ -20,7 +20,7 @@
         <?php require("templates/movie_card.php"); ?>
       <?php endforeach; ?>
       <?php if(count($movies) === 0): ?>
-        <p class="empty-list">Não há filmes para esta busca, <a href="<?= $BASE_URL ?>" class="back-link">voltar</a>.</p>
+        <p class="empty-list">Não há filme para esta busca, <a href="<?= $BASE_URL ?>" class="back-link">voltar</a>.</p>
       <?php endif; ?>
     </div>
   </div>
